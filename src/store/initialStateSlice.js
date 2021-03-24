@@ -2,17 +2,17 @@ import { VOYAGER } from '@carto/react-basemaps';
 
 export const initialState = {
   viewState: {
-    latitude: 31.802892,
-    longitude: -103.007813,
-    zoom: 2,
+    latitude: 37.7926913,
+    longitude: -122.2825235,
+    zoom: 10,
     pitch: 0,
     bearing: 0,
     dragRotate: false,
   },
   basemap: VOYAGER,
   credentials: {
-    username: 'TYPE HERE YOUR CARTO USERNAME',
-    apiKey: 'default_public',
+    username: 'kyle-se',
+    apiKey: 'HRoT6e6ZBGGIPV_-NtWElA',
     serverUrlTemplate: 'https://{user}.carto.com',
   },
   googleApiKey: '', // only required when using a Google Basemap
