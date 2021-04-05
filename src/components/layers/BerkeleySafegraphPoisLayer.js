@@ -45,7 +45,7 @@ function BerkeleySafegraphPoisLayer() {
       }
 
       console.log('This will run every second!');
-    }, 5000); // set interval
+    }, [500000000000]); // set interval
 
     return () => clearInterval(interval);
   }, []);
